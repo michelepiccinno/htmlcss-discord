@@ -118,13 +118,11 @@ footer {
 footer .col {
   border: 1px dashed white;
   flex-grow: 1;
-  background-color: #20b2aa;
   min-height: 300px;
 }
 
 footer .col-large {
   width: 15%;
-  background-color: #f08080;
   border-color: black;
 }
 
@@ -134,7 +132,6 @@ footer hr {
 }
 
 .secondary-footer {
-  background-color: #7fffd4;
   padding: 1rem 0;
   display: flex;
   justify-content: space-between;
@@ -144,7 +141,6 @@ footer hr {
 .footer-btn {
   border: 1px dashed black;
   padding: 0.5rem;
-  background-color: #FFB6C1;
 }
 
 /*NUOVE CLASSI*/
@@ -203,4 +199,19 @@ button {
   background-repeat: no-repeat;
   margin: auto;
   padding-top: 35px;
+}
+
+.btn-blue {
+  background-color: #7289da;
+  color: white;
+  margin-top: 40px;
+}
+
+.flag {
+  height: 20px;
+}
+
+li {
+  list-style: none;
+  padding-bottom: 8px;
 }
