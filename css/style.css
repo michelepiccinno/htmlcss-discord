@@ -76,7 +76,7 @@ footer {
   padding: 0 20px;
 }
 
-.nav-login {
+.txtcenter {
   text-align: center;
 }
 
@@ -100,24 +100,23 @@ footer {
 .col-large,
 .col-small {
   border: 1px dashed black;
-  min-height: 300px;
+  min-height: 460px;
 }
 
 .col-large {
   width: 60%;
-  background-color: #1e90ff;
 }
 
 .col-small {
   width: 40%;
-  background-color: #ffc0cb;
+  padding: 40px 0 0 15px;
 }
-
+/*
 .box-green {
   border: 1px dashed black;
   min-height: 500px;
   background-color: #228b22;
-}
+}*/
 
 footer .col {
   border: 1px dashed white;
@@ -155,7 +154,7 @@ footer hr {
 button {
   border: 1px transparent;
   border-radius: 25px;
-  padding: 0.5rem;
+  padding: 0.8rem;
 }
 
 .btn-black{
@@ -178,4 +177,16 @@ button {
 .hero-section button {
   margin-top: 40px;
   margin-bottom: 90px;
+}
+
+#item1 {
+  background-image: url(/img/item1.svg);
+}
+
+#item2 {
+  background-image: url(/img/item2.svg);
+}
+
+#item3 {
+  background-image: url(/img/item3.svg);
 }
