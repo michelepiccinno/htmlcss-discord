@@ -46,11 +46,8 @@ footer {
 }
 
 .bg-grey {
-  background-color: #d3d3d3;
+  background-color: #f6f6f6;
 }
-
-
-
 
 .nav-logo,
 .nav-login {
@@ -189,4 +186,21 @@ button {
 
 #item3 {
   background-image: url(/img/item3.svg);
+}
+
+.item4-big {
+  width: 100%;
+  min-height: 600px;
+  background-image: url(/img/item4-big.svg);
+  background-size: cover;
+}
+
+.stars {
+  width: 50%;
+  min-height: 200px;
+  background-image: url(/img/stars.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: auto;
+  padding-top: 35px;
 }
