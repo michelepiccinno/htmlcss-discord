@@ -14,7 +14,6 @@ header {
   background-color: #255ee9; /*APPLICO IL COLORE ALL'HEADER*/
   background-size: cover;
   padding-top: 1rem;
-  padding-bottom: 4px;
 }
 
 header nav {
@@ -32,7 +31,7 @@ section {
 
 footer {
   background-color: #23272a;
-  padding-top: 6px;
+  padding-top: 50px;
 }
 
 .container {
@@ -43,10 +42,12 @@ footer {
 .logo {
   background-image: url(/img/logo.svg);
   background-repeat: no-repeat;
+  width: 100%;
 }
 
 .bg-grey {
   background-color: #f6f6f6;
+  margin-top: -5px;
 }
 
 .nav-logo,
@@ -54,7 +55,7 @@ footer {
   min-width: 150px;
 }
 
-.nav-links {
+.nav-links {border-top: none;
   flex-grow: 1;
 }
 
@@ -85,7 +86,6 @@ footer {
 
 .hero-section .container {
  /* max-width: 680px;*/
-  border: 1px dashed black;
   text-align: center;
   color: white;
 }
@@ -96,7 +96,6 @@ footer {
 
 .col-large,
 .col-small {
-  border: 1px dashed black;
   min-height: 460px;
 }
 
@@ -107,23 +106,25 @@ footer {
 .col-small {
   width: 40%;
   padding: 40px 0 0 15px;
+  line-height: 1.3;
 }
-/*
-.box-green {
-  border: 1px dashed black;
-  min-height: 500px;
-  background-color: #228b22;
-}*/
+
+h2 {
+  font-size: 44px;
+  padding-bottom: 35px;
+}
+
+.col-small h3 {
+  line-height: 1.5;
+}
 
 footer .col {
-  border: 1px dashed white;
   flex-grow: 1;
   min-height: 300px;
 }
 
 footer .col-large {
   width: 15%;
-  border-color: black;
 }
 
 footer hr {
@@ -139,8 +140,11 @@ footer hr {
 
 .footer-logo,
 .footer-btn {
-  border: 1px dashed black;
   padding: 0.5rem;
+}
+
+.bg-grey.txtcenter .container h3{
+  padding: 0 80px;
 }
 
 /*NUOVE CLASSI*/
@@ -157,7 +161,7 @@ button {
 
 .hero-section h1 {
   font-size: 50px;
-  padding-top: 190px;
+  padding-top: 120px;
   padding-bottom: 40px;
 }
 
@@ -201,17 +205,39 @@ button {
   padding-top: 35px;
 }
 
+.stars h3 {
+  margin-bottom: 40px;
+}
+
 .btn-blue {
   background-color: #7289da;
   color: white;
-  margin-top: 40px;
 }
 
 .flag {
   height: 20px;
+  margin-top: 20px;
+}
+
+footer h1, footer ul li:first-child {
+  font-size: 32px;
+  color: #7289da;
 }
 
 li {
   list-style: none;
   padding-bottom: 8px;
+}
+
+.social-netw {
+  padding: 15px 0;
+}
+
+.social-netw i {
+  margin-right: 30px;
+}
+
+.wave {
+  transform: rotate(180deg);
+  margin: -4px; 
 }
